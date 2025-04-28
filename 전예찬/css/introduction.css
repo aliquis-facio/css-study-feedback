@@ -1,0 +1,44 @@
+@font-face {
+    font-family: '온글잎_콘콘체';
+    src: url('../assets/font/온글잎_콘콘체.ttf') format('truetype');
+}
+
+body {
+    font: 1.2rem "온글잎_콘콘체";
+    background-color: #555577;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    display: block;
+    width: 50%;
+    margin: 0 auto 1%;
+    color: darkkhaki;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto 1%;
+    border-radius: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+    display: block;
+    margin: 0 auto 1%;
+    padding: 1% 0 1% 1%;
+    text-align: left;
+    list-style-type: none;
+    width: 25%;
+    border-radius: 10px;
+    background-color: darkkhaki;
+}

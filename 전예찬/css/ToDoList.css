@@ -1,0 +1,127 @@
+@font-face {
+    font-family: '온글잎_콘콘체';
+    src: url('../assets/font/온글잎_콘콘체.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #aaaaaa;
+
+    font: 1.2rem "온글잎_콘콘체";
+    color: #333;
+  }
+  
+  .container {
+    width: 36%;
+    height: 35rem;
+
+    margin: 6% auto;
+    padding: 2%;
+
+    background-color: beige;
+
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    position: relative;
+  }
+  
+  .container h1 {
+    margin: 0;
+
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  .container h2 {
+    margin: 1% 0 3%;
+
+    font-size: 1rem;
+    color: #666666;
+  }
+  
+  .container p.remain {
+    margin: 0;
+
+    font-size: 1rem;
+    color:darkolivegreen;
+  }
+  
+  .container hr {
+    margin: 3% 0;
+
+    border: none;
+    border-top: 1px solid #E0E0E0;
+  }
+  
+  .todo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+  }
+  
+  label {
+    flex: 1;
+    margin-left: 2%;
+    font-size: 1rem;
+  }
+  
+  .delete-btn {
+    background: none;
+
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+
+    width: 1rem;
+    height: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 8px;
+
+    font-size: 1rem;
+    color: red;
+  }
+
+  .container input[type="text"] {
+    position: relative;
+    bottom: -16rem;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 100%;
+
+    padding: 3%;
+    margin-top: 4%;
+
+    box-sizing: border-box;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+
+    font: 1rem "온글잎_콘콘체";
+    color: #333333;
+  }
+  
+  .circle {
+    position: fixed;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 2rem;
+    height: 2rem;
+
+    border: none;
+    border-radius: 50%;
+    background-color:darkolivegreen;
+    color: beige;
+
+    font-size: 2.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
