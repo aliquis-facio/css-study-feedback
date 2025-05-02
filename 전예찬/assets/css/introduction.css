@@ -22,6 +22,14 @@ img {
     border-radius: 10px;
 }
 
+.big-pic{
+    width: 250px;
+}
+
+.small-pic{
+    width: 50px;
+}
+
 ul {
     padding: 0;
 }
